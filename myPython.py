@@ -5,4 +5,4 @@ for x in range(2000,3200):
     y=float(x % 7)
     z=float(x % 5)
     if (y==0.0) and (z<>0.0):
-        print(x)
+        print(x),
