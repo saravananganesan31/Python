@@ -142,3 +142,17 @@ def is_leap(year):
         return False
 year = int(input())
 print(is_leap(year))
+----------------------------------------- 
+# Read an integer .
+# Without using any string methods, try to print the following:
+# Note that "" represents the values in between.
+
+a=int(input())
+for i in range(a):
+    print(i+1,end='')
+   
+----------------------------------------- 
+
+
+
+
