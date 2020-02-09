@@ -102,3 +102,11 @@ print(c)
 print(d)
 
 ----------------------------------------- 
+# Read an integer . For all non-negative integers , print . See the sample for details.
+
+a=int(input().strip())
+for i in range(0,a):
+    b=i*i
+    print(b)
+----------------------------------------- 
+
