@@ -204,3 +204,263 @@ print(str(numpy.eye(*map(int,input().split()))).replace('1',' 1').replace('0',' 
 ----------------------------------------- 
 
 
+print("hello world")
+#print ("how are you doing")
+count=100
+miles=1200.342
+name="Saravanan"
+var=124242
+var1=4242.4248204820
+print(var+float(var1))
+a=42
+b=4242
+c="424"
+d=int(c)
+e=float(c)
+f=str(a)
+print(d)
+print(name)
+print(f)
+v="Saravanan Ganesan"
+print(v[0:10])
+a="Saravanan"
+b="Ganesan"
+print(a+"***"+b)
+
+print((a+b)*3)
+print("A" in "Saravanan")
+
+
+lister=[1,2,3,4,5,6,7,8,1,"Saravanan","Saravanan", "Santanu", "Kanishka",1,111]
+lister.append("Pappathi")
+print(lister.count(1))
+print(lister)
+dictionary={}
+tel={"Saravanan":4256558840,"Pappathi":8754417708,"Gopal":9894050719,"Kanishka": 7338825997}
+print(tel)
+tel['Gopal']
+
+tup1=("saravanan","Ganesan","Kanishka",1,3,4,5,653,"Durairaj")
+print(tup1[5:8])
+
+tuper=(1,2,3,4,5,6,7,8,9,10)
+for x in tuper:
+    print(x)
+
+tuper101=("Saravanan",7338825997)
+x,y=tuper101
+print(x)
+print(y)
+temp=x
+x=y
+y=temp
+print(x)
+print(y)
+x,y=y,x
+print(x)
+print(y)
+
+friends=["x","Kanishka","Santanu","Kanishka","Selvaraj", "Maniraj"]
+people ={"x":733,"Kanishka":996,"Santanu":989}
+print(people[friends[2]])
+
+var=1245
+if (var == 1242424):
+    print("True")
+else:
+    print("False")
+
+mystring="SaravananGanesanSatanuKanishka"
+if "*" in mystring:
+    print("G char available in ",mystring)
+elif "7" in mystring:
+    print("S char available in ", mystring)
+elif "0" in mystring:
+    print ("K char available in ", mystring)
+else:
+    print("not fall under any of above condition")
+
+for x in range(1,12):
+   for y in range(1,11):
+    print(x,y,x*y)
+
+p = 10
+q = 10
+while (p >= 0 ):
+    while (q >= 0):
+        print(p,q,p*q)
+        p -=1
+        q -=1
+print("while loop exit")
+
+v=5
+while True:
+    v -=1
+    if (v==3):
+        continue
+    print(v)
+    if (v==0):
+        break
+
+k= int(input("Enter your age"))
+s=str(input("Enter your name"))
+print(k)
+print(string)
+
+
+
+class Student:
+    def __init__(self,name,rollno,dept):
+        self.name=name
+        self.rollno=rollno
+        self.dept=dept
+class Marks:
+    def __init__(self,rollno, tamil, english, maths, science, social_science):
+        self.rollno=rollno
+        self.tamil=tamil
+        self.english=english
+        self.maths=maths
+        self.science=science
+        self.social_science=social_science
+        self.total=self.tamil+self.english+self.maths+self.science+self.science+self.social_science
+
+obj1=Student("saravanan",101,1)
+print obj1.name,obj1.rollno,obj1.dept
+
+obj2=Marks(101,60,80,90,75,85)
+obj2=Marks(102,70,65,95,78,77)
+
+print obj2.rollno,obj2.total
+
+-------------------------------------------------------------------------------
+
+
+print("hello world")
+#print ("how are you doing")
+count=100
+miles=1200.342
+name="Saravanan"
+var=124242
+var1=4242.4248204820
+print(var+float(var1))
+a=42
+b=4242
+c="424"
+d=int(c)
+e=float(c)
+f=str(a)
+print(d)
+print(name)
+print(f)
+v="Saravanan Ganesan"
+print(v[0:10])
+a="Saravanan"
+b="Ganesan"
+print(a+"***"+b)
+
+print((a+b)*3)
+print("A" in "Saravanan")
+
+
+lister=[1,2,3,4,5,6,7,8,1,"Saravanan","Saravanan", "Santanu", "Kanishka",1,111]
+lister.append("Pappathi")
+print(lister.count(1))
+print(lister)
+dictionary={}
+tel={"Saravanan":4256558840,"Pappathi":8754417708,"Gopal":9894050719,"Kanishka": 7338825997}
+print(tel)
+tel['Gopal']
+
+tup1=("saravanan","Ganesan","Kanishka",1,3,4,5,653,"Durairaj")
+print(tup1[5:8])
+
+tuper=(1,2,3,4,5,6,7,8,9,10)
+for x in tuper:
+    print(x)
+
+tuper101=("Saravanan",7338825997)
+x,y=tuper101
+print(x)
+print(y)
+temp=x
+x=y
+y=temp
+print(x)
+print(y)
+x,y=y,x
+print(x)
+print(y)
+
+friends=["x","Kanishka","Santanu","Kanishka","Selvaraj", "Maniraj"]
+people ={"x":733,"Kanishka":996,"Santanu":989}
+print(people[friends[2]])
+
+var=1245
+if (var == 1242424):
+    print("True")
+else:
+    print("False")
+
+mystring="SaravananGanesanSatanuKanishka"
+if "*" in mystring:
+    print("G char available in ",mystring)
+elif "7" in mystring:
+    print("S char available in ", mystring)
+elif "0" in mystring:
+    print ("K char available in ", mystring)
+else:
+    print("not fall under any of above condition")
+
+for x in range(1,12):
+   for y in range(1,11):
+    print(x,y,x*y)
+
+p = 10
+q = 10
+while (p >= 0 ):
+    while (q >= 0):
+        print(p,q,p*q)
+        p -=1
+        q -=1
+print("while loop exit")
+
+v=5
+while True:
+    v -=1
+    if (v==3):
+        continue
+    print(v)
+    if (v==0):
+        break
+
+k= int(input("Enter your age"))
+s=str(input("Enter your name"))
+print(k)
+print(string)
+
+
+
+class Student:
+    def __init__(self,name,rollno,dept):
+        self.name=name
+        self.rollno=rollno
+        self.dept=dept
+class Marks:
+    def __init__(self,rollno, tamil, english, maths, science, social_science):
+        self.rollno=rollno
+        self.tamil=tamil
+        self.english=english
+        self.maths=maths
+        self.science=science
+        self.social_science=social_science
+        self.total=self.tamil+self.english+self.maths+self.science+self.science+self.social_science
+
+obj1=Student("saravanan",101,1)
+print obj1.name,obj1.rollno,obj1.dept
+
+obj2=Marks(101,60,80,90,75,85)
+obj2=Marks(102,70,65,95,78,77)
+
+print obj2.rollno,obj2.total
+
+-------------------------------------------------------------------
